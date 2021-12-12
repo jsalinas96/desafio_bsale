@@ -4,7 +4,11 @@ const router = Router();
 const db_connection = require('../database');
 
 router.get('/api/product', (req, res) => {
-    db_connection.query('SELECT * FROM product', (err, rows) => {
+    const filters = req.query;
+    console.log('filters',filters);
+    const category = filters.category;
+    const orderBy = filters.orderBy;
+    db_connection.query('SELECT * FROM product WHERE category = ? ORDER BY price '+orderBy ,[category], (err, rows) => {
         if(!err){
             res.json(rows);
         } else {

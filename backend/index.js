@@ -2,6 +2,7 @@ if(process.env.NODE_ENV !== 'production'){
     require('dotenv').config();
 }
 
+const cors = require('cors');
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -11,6 +12,7 @@ const port = process.env.PORT || 3000;
 //Settings
 
 //Middlewares
+app.use(cors());
 app.use(express.json());
 
 //Routes
