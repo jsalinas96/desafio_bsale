@@ -30,21 +30,32 @@ El Frontend fue desarrollado con:
 Requisitos previos:
 - Instalación de Node.JS.
 
-### Clonación del proyecto:
-`git clone jsalinas96/desafio_bsale`
+Clonación del proyecto:
+`
+  git clone jsalinas96/desafio_bsale
+`
 
-### Instalación de módulos
-`npm install`
+Instalación de módulos
+`
+  npm install
+`
 
-### Ejecutar Backend en desarrollo
-`npm run dev`
+Ejecutar Backend en desarrollo
+`
+  npm run dev
+`
 
-### Ejecutar Frontend en desarrollo
-`npm run serve`
+Ejecutar Frontend en desarrollo
+`
+  npm run serve
+`
 
-### Preparación para producción
-`npm run build`
-(compilar los archivos de Frontend en el Backend para la producción del proyecto con Webpack)
+Preparación para producción
+`
+  npm run build
+`
+
+(compilar los archivos de Frontend con Webpack)
 
 ## 4. Despliegue
 A modo de disponibilizar la aplicación en un host, se utilizó Heroku.
