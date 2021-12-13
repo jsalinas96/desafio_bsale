@@ -26,38 +26,6 @@ El Frontend fue desarrollado con:
 - Se utilizó el empaquetador de módulos Webpack v5 para compilar los archivos de Frontend en el Backend.
 - Entre otros paquetes de Webpack, se utilizó Webpack-server para levantar un servidor local de desarrollo para el Frontend.
 
-## 3. Instalación
-
-### 3.1. Requisitos previos:
-- Instalación de Node.JS.
-
-### 3.2. Clonación del proyecto:
-```
-git clone jsalinas96/desafio_bsale
-```
-
-### 3.3. Instalación de módulos
-```
-npm install
-```
-
-### 3.4. Ejecutar Backend en desarrollo
-```
-npm run dev
-```
-
-### 3.5. Ejecutar Frontend en desarrollo
-```
-npm run serve
-```
-
-### 3.6. Preparación para producción
-(compilar los archivos de Frontend con Webpack)
-```
-npm run build
-```
-Genera una carpeta 'public' en el Backend, para efectos de producción del proyecto en un host.
-
-## 4. Despliegue
+## 3. Despliegue
 Para disponibilizar la aplicación en un host, se utilizó Heroku. El siguiente enlace muestra el proyecto funcionando:
 - [Ver proyecto desplegado](https://jsalinas-desafio-bsale.herokuapp.com/)
