@@ -23,7 +23,7 @@ El Backend fue desarrollado con:
 El Frontend fue desarrollado con:
 - Vanilla Javascript.
 - Bootstrap v5.1.3
-- Se utilizó el empaquetador de módulos Webpack v5 para compilar los archivos de Frontend en el Backend para la producción del proyecto.
+- Se utilizó el empaquetador de módulos Webpack v5 para compilar los archivos de Frontend en el Backend.
 - Entre otros paquetes de Webpack, se utilizó Webpack-server para levantar un servidor local de desarrollo para el Frontend.
 
 ## 3. Instalación
@@ -56,6 +56,7 @@ npm run serve
 ```
 npm run build
 ```
+Genera una carpeta 'public' en el backend.
 
 ## 4. Despliegue
 Para disponibilizar la aplicación en un host, se utilizó Heroku. El siguiente enlace muestra el proyecto funcionando:

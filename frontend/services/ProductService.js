@@ -1,7 +1,7 @@
 class ProductService {
 
     constructor() {
-        this.URL = 'http://localhost:3000/api/product';
+        this.URL = '/api/product';
     }
 
     async getProducts(search, orderBy, category) {
