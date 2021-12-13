@@ -31,29 +31,29 @@ Requisitos previos:
 - Instalación de Node.JS.
 
 Clonación del proyecto:
-`
-  git clone jsalinas96/desafio_bsale
-`
+```
+git clone jsalinas96/desafio_bsale
+```
 
 Instalación de módulos
-`
-  npm install
-`
+```
+npm install
+```
 
 Ejecutar Backend en desarrollo
-`
-  npm run dev
-`
+```
+npm run dev
+```
 
 Ejecutar Frontend en desarrollo
-`
-  npm run serve
-`
+```
+npm run serve
+```
 
 Preparación para producción
-`
-  npm run build
-`
+```
+npm run build
+```
 
 (compilar los archivos de Frontend con Webpack)
 
