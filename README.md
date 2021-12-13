@@ -6,9 +6,14 @@ Este ejercicio, no tiene ningún fin comercial ni estratégico.
 ## 1. Descripción del ejercicio
 Se debe Construir una tienda online que despliegue productos agrupados por la categoría a la que pertenecen, generando por separado backend (API REST) y frontend
 (aplicación que la consuma).
+
 Además, se debe agregar un buscador, el cual tiene que estar implementado a nivel de servidor, mediante una Api Rest cuyo lenguaje y framework puede ser de libre 
 elección.
-La aplicación de cliente tiene que estar desarrollada con vanilla javascript (javascript puro), sin ningún framework. Si se puede usar librerías o componentes específicos, tales como: boopstrap, material, Jquery, entre otros.
+
+La aplicación de cliente tiene que estar desarrollada con vanilla javascript (javascript puro), sin ningún framework. 
+
+Se puede usar librerías o componentes específicos, tales como: boopstrap, material, Jquery, entre otros.
+
 Finalmente, se debe disponibilizar la aplicación y el repositorio con el código en un hosting.
 
 
