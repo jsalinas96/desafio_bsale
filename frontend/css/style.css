@@ -7,8 +7,11 @@
 body{
     width: 100%;
     height: 100vh;
-    font-size: 18px;
-    background: #eef2f3;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background: #ADA996;
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
 }
 
 .main{
@@ -17,39 +20,63 @@ body{
     border-radius: 10px;
 }
 
-.main > div.custom-bar{
-    background: white;
+.custom-bar{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    color: #002d48;
     margin-bottom: 20px;
-    padding: 40px;
+    padding: 20px 30px 12px 30px;
     border-radius: 10px;
 }
+.custom-bar label{
+    font-weight: 600;
+    font-size: 1em;
+}
+
 .category-tag{
+    background: #0077c0;
+    color: white;
     width: 100%;
     padding: 5px 15px;
     border-radius: 20px;
+    font-size: 1em;
 }
 .category-tag:hover{
-    background: #444;
+    color: white;
+    background: #003b60;
 }
 .category-tag:focus {
     outline: none;
     box-shadow: none;
 }
 .category-tag.selected{
-    background: #444;
+    color: white;
+    background: #002d48;
+}
+
+select#orderBySelect{
+    border-radius: 20px;
+    border: solid 1px #0077c0;
+    color: #003b60;
 }
 
 
 .content{
-    background: white;
-    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
     border-radius: 10px;
+    padding: 40px;
 }
 
 .product-card{
     border-radius: 15px;
     height: 400px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: solid 1px #0077c0;
 }
+
 .product-card .card-body{
     display: flex;
     flex-direction: column;
@@ -58,18 +85,35 @@ body{
     overflow: hidden;
     text-align: center;
 }
+
 .product-card .card-body img{
     height: 100%;
 }
+
+.product-card .offer-tag{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+    background: red;
+    color: white;
+    border-radius: 0 0 0 10px;
+    font-size: 0.9em;
+}
+
 .product-card .card-body h3.product-name{
     padding-top: 20px;
     font-size: 0.9em;
 }
 
 .product-card .card-footer{
-    background: transparent;
-    /* display: none; */
+    background: transparent;    
 }
-/* .product-card:hover .card-footer{
-    display: block;
-} */
+
+.product-card:hover{
+    border: solid 2px #0077c0;
+}
