@@ -56,8 +56,8 @@ npm run serve
 ```
 npm run build
 ```
-Genera una carpeta 'public' en el backend.
+Genera una carpeta 'public' en el Backend, para efectos de producción del proyecto en un host.
 
 ## 4. Despliegue
 Para disponibilizar la aplicación en un host, se utilizó Heroku. El siguiente enlace muestra el proyecto funcionando:
-- [Ver proyecto desplegado](https://www.google.cl)
+- [Ver proyecto desplegado](https://jsalinas-desafio-bsale.herokuapp.com/)
