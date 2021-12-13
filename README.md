@@ -27,36 +27,36 @@ El Frontend fue desarrollado con:
 - Entre otros paquetes de Webpack, se utilizó Webpack-server para levantar un servidor local de desarrollo para el Frontend.
 
 ## 3. Instalación
-Requisitos previos:
+
+### 3.1 Requisitos previos:
 - Instalación de Node.JS.
 
-Clonación del proyecto:
+### 3.2 Clonación del proyecto:
 ```
 git clone jsalinas96/desafio_bsale
 ```
 
-Instalación de módulos
+### 3.3 Instalación de módulos
 ```
 npm install
 ```
 
-Ejecutar Backend en desarrollo
+### 3.4 Ejecutar Backend en desarrollo
 ```
 npm run dev
 ```
 
-Ejecutar Frontend en desarrollo
+### 3.5 Ejecutar Frontend en desarrollo
 ```
 npm run serve
 ```
 
-Preparación para producción
+### 3.6 Preparación para producción
+(compilar los archivos de Frontend con Webpack)
 ```
 npm run build
 ```
 
-(compilar los archivos de Frontend con Webpack)
-
 ## 4. Despliegue
-A modo de disponibilizar la aplicación en un host, se utilizó Heroku.
+Para disponibilizar la aplicación en un host, se utilizó Heroku. El siguiente enlace muestra el proyecto funcionando:
 - [Ver proyecto desplegado](https://www.google.cl)
